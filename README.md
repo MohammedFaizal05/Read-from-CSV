@@ -30,10 +30,9 @@ Print the output.
 ## PROGRAM:
 
 ```python
-
-To write a python program for reading content from a CSV file.
-Developed by:  Mohammed Faizal.J
-Register Number: 22003412
+#To write a python program for reading content from a CSV file.
+#Developed by:  Mohammed Faizal.J
+#Register Number: 22003412
 
 import pandas as pd
 df=pd.read_csv('Downloads/nba.csv')
@@ -43,7 +42,9 @@ print("rows",len(df.axes[0]))
 print("columns",len(df.axes[1]))
 
 ```
+
 ## OUTPUT:
 ![4](https://user-images.githubusercontent.com/120553195/214825913-0ce848bb-df99-4043-aea7-a3ec081401fa.jpeg)
 
 ## RESULT:
+Thus the program is written to copy contents from one file to another.
